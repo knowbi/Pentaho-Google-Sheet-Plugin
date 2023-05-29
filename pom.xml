@@ -77,6 +77,12 @@
  
 
   <dependencies>
+      <!-- https://mvnrepository.com/artifact/org.syslog4j/syslog4j -->
+      <dependency>
+          <groupId>org.syslog4j</groupId>
+          <artifactId>syslog4j</artifactId>
+          <version>0.9.46</version>
+      </dependency>
       <dependency>
           <groupId>pentaho-kettle</groupId>
           <artifactId>kettle-core</artifactId>
@@ -121,7 +127,7 @@
 	<dependency>
 		<groupId>com.google.apis</groupId>
 		<artifactId>google-api-services-sheets</artifactId>
-		<version>v4-rev493-1.25.0</version>
+		<version>v4-rev612-1.25.0</version>
 	</dependency>
     <dependency>
       <groupId>com.google.apis</groupId>
